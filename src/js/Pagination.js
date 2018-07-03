@@ -197,7 +197,7 @@ class Pagination {
         var paginationBox = []
 
         //for (let i = 1; i < 10;  i++) {
-        for (let i = 1; i < opts.pager.bullet_count;  i++) {
+        for (let i = 1; i <= opts.pager.bullet_count;  i++) {
 
             // バレット数 >= ページ数ならそのまま
             if(opts.pager.bullet_count >= opts.pager.max_page) {

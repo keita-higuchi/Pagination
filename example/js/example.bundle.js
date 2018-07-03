@@ -296,7 +296,7 @@ var Pagination = function () {
             var paginationBox = [];
 
             //for (let i = 1; i < 10;  i++) {
-            for (var i = 1; i < opts.pager.bullet_count; i++) {
+            for (var i = 1; i <= opts.pager.bullet_count; i++) {
 
                 // バレット数 >= ページ数ならそのまま
                 if (opts.pager.bullet_count >= opts.pager.max_page) {
